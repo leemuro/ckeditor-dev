@@ -1,6 +1,6 @@
 ﻿/**
- * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.html or http://ckeditor.com/license
+ * @license Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
 CKEDITOR.plugins.setLang( 'a11yhelp', 'nb', {
@@ -37,7 +37,7 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'nb', {
 		]
 	},
 		{
-		name: 'Kommandoer',
+		name: 'Hurtigtaster',
 		items: [
 			{
 			name: 'Angre',
@@ -60,7 +60,7 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'nb', {
 			legend: 'Trykk ${underline}'
 		},
 			{
-			name: 'Link',
+			name: 'Lenke',
 			legend: 'Trykk ${link}'
 		},
 			{
@@ -68,12 +68,12 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'nb', {
 			legend: 'Trykk ${toolbarCollapse}'
 		},
 			{
-			name: ' Access previous focus space command', // MISSING
-			legend: 'Press ${accessPreviousSpace} to access the closest unreachable focus space before the caret, for example: two adjacent HR elements. Repeat the key combination to reach distant focus spaces.' // MISSING
+			name: 'Gå til forrige fokusområde',
+			legend: 'Trykk ${accessPreviousSpace} for å komme til nærmeste fokusområde før skrivemarkøren som ikke kan nås på vanlig måte, for eksempel to tilstøtende HR-elementer. Gjenta tastekombinasjonen for å komme til fokusområder lenger unna i dokumentet.'
 		},
 			{
-			name: ' Access next focus space command', // MISSING
-			legend: 'Press ${accessNextSpace} to access the closest unreachable focus space after the caret, for example: two adjacent HR elements. Repeat the key combination to reach distant focus spaces.' // MISSING
+			name: 'Gå til neste fokusområde',
+			legend: 'Trykk ${accessNextSpace} for å komme til nærmeste fokusområde etter skrivemarkøren som ikke kan nås på vanlig måte, for eksempel to tilstøtende HR-elementer. Gjenta tastekombinasjonen for å komme til fokusområder lenger unna i dokumentet.'
 		},
 			{
 			name: 'Hjelp for tilgjengelighet',
@@ -81,5 +81,67 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'nb', {
 		}
 		]
 	}
-	]
-});
+	],
+	backspace: 'Backspace', // MISSING
+	tab: 'Tab', // MISSING
+	enter: 'Enter', // MISSING
+	shift: 'Shift', // MISSING
+	ctrl: 'Ctrl', // MISSING
+	alt: 'Alt', // MISSING
+	pause: 'Pause', // MISSING
+	capslock: 'Caps Lock', // MISSING
+	escape: 'Escape', // MISSING
+	pageUp: 'Page Up', // MISSING
+	pageDown: 'Page Down', // MISSING
+	end: 'End', // MISSING
+	home: 'Home', // MISSING
+	leftArrow: 'Venstre piltast',
+	upArrow: 'Opp-piltast',
+	rightArrow: 'Høyre piltast',
+	downArrow: 'Ned-piltast',
+	insert: 'Insert', // MISSING
+	'delete': 'Delete', // MISSING
+	leftWindowKey: 'Venstre Windows-tast',
+	rightWindowKey: 'Høyre Windows-tast',
+	selectKey: 'Select key', // MISSING
+	numpad0: 'Numpad 0', // MISSING
+	numpad1: 'Numpad 1', // MISSING
+	numpad2: 'Numpad 2', // MISSING
+	numpad3: 'Numpad 3', // MISSING
+	numpad4: 'Numpad 4', // MISSING
+	numpad5: 'Numpad 5', // MISSING
+	numpad6: 'Numpad 6', // MISSING
+	numpad7: 'Numpad 7', // MISSING
+	numpad8: 'Numpad 8', // MISSING
+	numpad9: 'Numpad 9', // MISSING
+	multiply: 'Multiply', // MISSING
+	add: 'Add', // MISSING
+	subtract: 'Subtract', // MISSING
+	decimalPoint: 'Decimal Point', // MISSING
+	divide: 'Divide', // MISSING
+	f1: 'F1', // MISSING
+	f2: 'F2', // MISSING
+	f3: 'F3', // MISSING
+	f4: 'F4', // MISSING
+	f5: 'F5', // MISSING
+	f6: 'F6', // MISSING
+	f7: 'F7', // MISSING
+	f8: 'F8', // MISSING
+	f9: 'F9', // MISSING
+	f10: 'F10', // MISSING
+	f11: 'F11', // MISSING
+	f12: 'F12', // MISSING
+	numLock: 'Num Lock', // MISSING
+	scrollLock: 'Scroll Lock', // MISSING
+	semiColon: 'Semikolon',
+	equalSign: 'Likhetstegn',
+	comma: 'Komma',
+	dash: 'Bindestrek',
+	period: 'Punktum',
+	forwardSlash: 'Forover skråstrek',
+	graveAccent: 'Grave Accent', // MISSING
+	openBracket: 'Open Bracket', // MISSING
+	backSlash: 'Bakover skråstrek',
+	closeBracket: 'Close Bracket', // MISSING
+	singleQuote: 'Single Quote' // MISSING
+} );

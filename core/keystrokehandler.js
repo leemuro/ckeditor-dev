@@ -1,6 +1,6 @@
 ﻿/**
- * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.html or http://ckeditor.com/license
+ * @license Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
 /**
@@ -37,7 +37,7 @@ CKEDITOR.keystrokeHandler = function( editor ) {
 	return this;
 };
 
-(function() {
+( function() {
 	var cancel;
 
 	var onKeyDown = function( event ) {
@@ -87,11 +87,11 @@ CKEDITOR.keystrokeHandler = function( editor ) {
 
 			// Some browsers instead, don't cancel key events in the keydown, but in the
 			// keypress. So we must do a longer trip in those cases.
-			if ( CKEDITOR.env.opera || ( CKEDITOR.env.gecko && CKEDITOR.env.mac ) )
+			if ( CKEDITOR.env.gecko && CKEDITOR.env.mac )
 				domObject.on( 'keypress', onKeyPress, this );
 		}
 	};
-})();
+} )();
 
 /**
  * A list associating keystrokes to editor commands. Each element in the list
