@@ -6,13 +6,24 @@
 var CKBUILDER_CONFIG = {
 	skin: 'moono',
 	ignore: [
+		'bender.js',
+		'.bender',
+		'bender-err.log',
+		'bender-out.log',
 		'dev',
-		'README.md',
+		'.DS_Store',
 		'.gitignore',
 		'.gitattributes',
+		'gruntfile.js',
 		'.idea',
+		'.jscsrc',
+		'.jshintignore',
+		'.jshintrc',
 		'.mailmap',
-		'.DS_Store'
+		'node_modules',
+		'package.json',
+		'README.md',
+		'tests'
 	],
 	plugins: {
 		a11yhelp: 1,

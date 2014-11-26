@@ -4,9 +4,10 @@
  */
 
 CKEDITOR.plugins.setLang( 'codesnippet', 'eo', {
-	button: 'Enmeti kodaĵon',
-	codeContents: 'Code content', // MISSING
-	emptySnippetError: 'A code snippet cannot be empty.', // MISSING
-	language: 'Language', // MISSING
-	title: 'Code snippet' // MISSING
+	button: 'Enmeti kodaĵeron',
+	codeContents: 'Kodenhavo',
+	emptySnippetError: 'Kodaĵero ne povas esti malplena.',
+	language: 'Lingvo',
+	title: 'Kodaĵero',
+	pathName: 'kodaĵero'
 } );
